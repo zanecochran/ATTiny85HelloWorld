@@ -30,6 +30,8 @@ void loop() {
     }
   }
   
+  // More efficient way to change states: state = (state + 1) % 3;
+  
   prevState = butState;
 
   //FSM that controlls the "state" of the LED
